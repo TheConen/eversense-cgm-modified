@@ -1,0 +1,4 @@
+daggero.internal.codegen.ValidationProcessor
+daggero.internal.codegen.InjectAdapterProcessor
+daggero.internal.codegen.ModuleAdapterProcessor
+daggero.internal.codegen.GraphAnalysisProcessor
