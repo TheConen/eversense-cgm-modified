@@ -71,7 +71,8 @@
         <provider android:authorities="com.senseonics.gen12androidapp.provider" android:exported="false" android:grantUriPermissions="true" android:name="androidx.core.content.FileProvider">
             <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/provider_paths"/>
         </provider>
-        <provider android:authorities="com.senseonics.gen12androidapp.transmitter" android:exported="false" android:name="com.senseonics.db.ConnectedTransmitterContentProvider"/>
+        <provider android:authorities="com.senseonics.gen12androidapp.transmitter" android:grantUriPermissions="true" android:exported="true" android:name="com.senseonics.db.ConnectedTransmitterContentProvider"/>
+        <provider android:authorities="com.senseonics.gen12androidapp.glucose" android:grantUriPermissions="true" android:exported="true" android:name="com.senseonics.db.GlucoseContentProvider"/>
         <service android:enabled="true" android:exported="false" android:name="com.senseonics.bluetoothle.BluetoothService"/>
         <service android:enabled="true" android:exported="false" android:name="com.senseonics.graph.GraphCacheIntentService"/>
         <activity android:label="Eversense CGM" android:name="com.senseonics.gen12androidapp.SplashActivity" android:screenOrientation="portrait" android:theme="@style/SenseonicsThemeNoActionBar">
