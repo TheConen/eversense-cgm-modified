@@ -4783,5 +4783,4 @@
     <public type="xml" name="standalone_badge_gravity_top_start" id="0x7f140006" />
     <public type="xml" name="standalone_badge_offset" id="0x7f140007" />
     <public type="xml" name="splits0" id="0x7f140008" />
-    <public type="xml" name="locales_config" id="0x7f140009" />
 </resources>
